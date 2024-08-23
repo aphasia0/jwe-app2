@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home Page</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="container text-center">
+    <h1 th:text="${message}" class="text-white">Welcome message</h1>
+    <h2 th:text="${jwe}" class="text-white">Welcome message</h2>
+</div>
+</body>
+</html>
